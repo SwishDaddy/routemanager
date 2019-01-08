@@ -1,0 +1,290 @@
+.damagediagram {
+	border: 1px solid #dedede;
+	width: 600px;
+	height: 300px;
+}
+
+.bigfont {
+	font-size:24px;
+}
+
+body.modal-open-noscroll
+{
+    padding-right: 0!important;
+    overflow: hidden;
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom
+{
+    padding-right: 0!important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.btnhome {
+	/* display:none; */
+}   
+
+.btnwidth {
+	width: 140px !important;
+	margin-bottom: 5px;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+.collapsed {
+	background-color: gray;
+	color: white;	
+}
+
+.container {
+	min-width:95%;
+}
+
+.damagediagram {	
+	text-align: center;
+	verticle-align: middle;	
+}
+
+.damagediagramcanvas, .thumbnail {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.thumbnail:hover{
+	background-color: #f0f0f0;
+}
+
+.datepicker {
+	background-color: white;
+	cursor: default;
+}
+
+.div_parent_frame {
+	padding: 20px;
+	margin: 20px;
+	border: solid 1px #D0D0D0;
+	background-color: #FBFBFB;
+}
+
+.div_parent_frame h4 {
+	text-align: center1;
+	font-weight: bold;
+	display: none1;
+}
+
+.highlight {
+   background-color: rgb(255, 251, 204);
+}
+
+.griddata_tr_highlight {
+	 /* background-color: rgb(255, 251, 204, .4) !important; */	
+	 background-color: rgb(255, 255, 0, .4) !important;
+}
+
+.error {
+	background-color: mistyrose !important;
+	border: solid red 1px !important;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.grid tbody td input, .grid tbody td select { 
+	border: none;
+}
+
+/*
+.grid td {
+	text-align: center;	
+}
+
+.grid td input, .grid td select { 
+	border: none;
+	width: 100%;
+	background: transparent;
+	text-align: center;
+	padding: 5px;	
+}
+
+.grid tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+*/
+
+
+
+.highlight {
+   background-color: rgb(255, 251, 204);
+}
+
+html {
+   overflow-y: scroll;
+   overflow-x: auto;
+}
+   
+input::-ms-clear {
+  width : 0;
+  height: 0;
+}
+
+.jumbotron {
+	background-color: rgb(9, 70, 150);
+	color: white;
+	padding: 10px 0 !important;	
+}
+
+label {
+	margin-top:15px !important;
+}
+
+.lightgreen {
+	/*
+	background-color: green;
+	opacity: 0.05;
+	*/
+	background-color: rgba(204, 255, 204, 0.5); 
+	color: black;
+}
+
+.lightgreen2 {
+	background-color: rgba(204, 255, 204, 0.5);
+	opacity: 0.8;
+	color: black;
+	font-weight: bold;
+}
+
+.list_order_table {
+	/*width: 100%;*/
+	 border: 1px solid #dedede;
+}
+
+.list_order_table td {
+	padding: 15px;
+}
+
+.list_order_table tr:hover {
+	cursor: hand;
+	cursor: pointer;
+	background-color: #f2f2f2;
+}
+
+.nav {
+	/* background-color: rgb(9, 70, 150) !important; */
+	background-color: white !important;
+	color: black !important;
+}
+
+.navbar-toggle .icon-bar {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  border-radius: 1px !important;
+  background-color: white !important;
+}
+
+
+.rolloverhand:hover {
+	cursor: hand;
+	cursor: pointer;
+}
+	
+.rt_error {
+	background-color: mistyrose;
+}
+
+.roundcorners {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.routegroupmembers:hover {
+	color: red;
+	cursor: hand;
+	cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}   
+   
+.solidlinkwhite {
+	color: white !important;
+}
+
+table tbody tr td select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	text-indent: 0.1;
+	text-overflow: '';
+	width: 100%;
+}
+
+.table_header_color {
+	background-color: #D0D0D0;
+}
+
+.tablesorter {
+    width: 100%;
+    border: 1px solid #dedede;
+    overflow-x: auto;
+    color: #002228 !important;
+}
+
+.tablesorter td {
+	/*
+	border-top: 0px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	*/
+	border: 1px solid #dedede;
+}
+
+.tablesorter thead th:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.tablesorter th {
+	border: 1px solid #dedede;
+}
+
+.tablesorter td {
+    font-size: 1em;
+    padding: 5px !important; 
+    white-space: pre-line !important;
+    overflow: hidden !important;
+    color: #002228 !important;
+}
+
+.tablesorter th {
+	font-size: 1em;
+    padding: 5px !important; 
+    white-space: pre-line !important;
+    overflow: hidden !important;
+    color: #002228 !important;
+}
+
+
+.tablesorter tbody tr:nth-child(even) {
+	background-color: #E8E8E8 !important;
+}
+
+.tablesorter tbody tr:hover td {
+	background-color: #bfeaf6 !important;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.underline:hover {
+	text-decoration: underline;
+}
+
+.whitebg {
+	background-color: #FFF;
+}
