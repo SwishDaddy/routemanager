@@ -134,7 +134,7 @@
 								<input id="accidents_edit_data_accidenttime" type="text" class="form-control militarytime accidents_edit_data_postdata_val"  data-postkey="time_of_accident"></input>
 							</div>
 							<div class="col-md-3">
-								<label for="accidents_edit_data_locationname">Airport Name</label>
+								<label for="accidents_edit_data_locationname">Service Location</label>
 								<input id="accidents_edit_data_locationname" type="text" tabindex="-1" class="form-control accidents_edit_data_postdata_val" value="Denver International Airport (DIA)" data-postkey="location_name" readonly></input>
 							</div>
 							<div class="col-md-3">
