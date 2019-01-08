@@ -133,7 +133,7 @@ $(document).ready(function() {
 
 		$(".chkshowuploadbutton").trigger("change");
 
-		$("#accidents_edit_data_airportname").val(location_name_long);
+		$("#accidents_edit_data_locationname").val(location_name_long);
 
 		$.when(getusers($(".userlist"))).done(function() {
 			$.when(getvehicletypes($(".vehicletypelist"), "")).done(function() {
@@ -183,7 +183,7 @@ $(document).ready(function() {
 			$(".diagramcoordinates").val("");
 			$(".showtable tbody").empty();
 			$(".showtable").hide();
-			$("#accidents_edit_data_airportname").val(location_name_long);
+			$("#accidents_edit_data_locationname").val(location_name_long);
 			$("#accidents_edit_data_other_driver_edit_div").hide();
 			$("#accidents_edit_data_other_driver_table_div").show();
 			$("#accidents_edit_data_injury_edit_div").hide();
@@ -733,7 +733,7 @@ function getaccidentdata(accidentid) {
 
 		$("#accidents_edit_data_accidentid").val(accidentid);
 
-		$("#accidents_edit_data_airportname").val(location_name_long);
+		$("#accidents_edit_data_locationname").val(location_name_long);
 
 		$.when(getusers($(".userlist"))).done(function() {
 			$.when(getvehicletypes($(".vehicletypelist"), "")).done(function() {
