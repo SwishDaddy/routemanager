@@ -2,7 +2,7 @@
 
 $ver = "1.47";
 
-$sourceurl = "https://routemanager.swishersolutions.com/";
+$sourceurl = "http://routemanager.swishersolutions.com/";
 
 $location_name = "DIA";
 
