@@ -126,7 +126,7 @@ $(document).ready(function() {
 		$.when( getdriversheet() ).done(function() {
 			$.when( tablesorter($(".driverinput_grid")) ).done(function() {
 				$.when( font_size( $("#driverinput_table_parent")) ).done(function() {
-					$(".btnhome").hide();
+					//$(".btnhome").hide();
 					$("#driverinputs_controls_div1").hide();
 					$("#driverinputs_controls_div2").hide();
 					$("#driverinputs_controls_div3").show();
@@ -146,7 +146,7 @@ $(document).ready(function() {
 		"container": "body",
 		"onConfirm": function() {
 			if ($(this).prop("id") == "driverinputs_save_driver_sheet_cancel") {
-				$(".btnhome").show();
+				//$(".btnhome").show();
 				$("*").removeClass("rt_error");
 				$("#driverinputs_title").html("");
 				$("#driverinputs_controls_div2").hide();
@@ -161,7 +161,7 @@ $(document).ready(function() {
 			}
 			else
 			{
-				$(".btnhome").show();
+				//$(".btnhome").show();
 				$("*").removeClass("rt_error");
 				$("#driverinputs_title").html("");
 				$("#driverinputs_controls_div2").hide();
@@ -277,7 +277,7 @@ $(document).ready(function() {
 	$("#driverinputs_save_close_driver_sheet").click(function() {
 		if ( savedriversheet() ) {
 		//$.when( savedriversheet() ).done(function() {
-			$(".btnhome").show();
+			//$(".btnhome").show();
 			$("*").removeClass("rt_error");
 			$("#driverinputs_title").html("");
 			$("#driverinputs_controls_div2").hide();
