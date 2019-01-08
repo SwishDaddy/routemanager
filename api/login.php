@@ -69,10 +69,10 @@ if ($action == "login") {
 	
 	$sourceip = $_SERVER['REMOTE_ADDR'];
 	
-	$sql = "INSERT INTO tblloginlog (adatetime, ndatetime, userid, sourceip)
-	VALUES (?, ?, ?, ?)";
+	$sql = "INSERT INTO tblloginlog (adatetime, ndatetime, userid, sourceip, destinationurl)
+	VALUES (?, ?, ?, ?, ?)";
 	$stmt = $dbconn->prepare($sql);
-	$stmt->execute(array($aDateTimeGlobal, $nDateTimeGlobal, $luid, $sourceip));
+	$stmt->execute(array($aDateTimeGlobal, $nDateTimeGlobal, $luid, $sourceip, $sourceurl));
 
 	echo json_encode($arr);
 	die;
