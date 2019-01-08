@@ -65,7 +65,14 @@ if ($action == "login") {
 		$arr["message"] = "Login Failed";
 		echo json_encode($arr);
 		die;
-	}
+	};
+	
+	$sourceip = $_SERVER['REMOTE_ADDR'];
+	
+	$sql = "INSERT INTO tblloginlog (adatetime, ndatetime, userid, sourceip)
+	VALUES (?, ?, ?, ?)";
+	$stmt = $dbconn->prepare($sql);
+	$stmt->execute(array($aDateTimeGlobal, $nDateTimeGlobal, $luid, $sourceip));
 
 	echo json_encode($arr);
 	die;
