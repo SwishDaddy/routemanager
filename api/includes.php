@@ -171,7 +171,7 @@ function globalnav() {
 
 						$arrinfo = logininfo();
 
-						echo '<span id="loggedin_userfullname" class="rolloverhand" style="margin-right:10px;">' . $arrinfo["firstname"] . " " . $arrinfo["lastname"] . '</span>';
+						echo '<span id="loggedin_userfullname" class="rolloverhand" style="margin-right:10px;">' . htmlspecialchars($arrinfo["firstname"]) . " " . htmlspecialchars($arrinfo["lastname"]) . '</span>';
 
 						echo '</div>
 						<a id="abm_rm_login_btnlogout" class="btn btn-primary" role="button">Log Out</a>
