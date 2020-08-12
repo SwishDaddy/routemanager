@@ -28,7 +28,7 @@ Set the database credentials for your environment in "api/includes.php", in the 
 
 You will need to create a user record in the database with your email and a password.
 
-- Create the password record in "tblusers" with a unique "id" value... doesn't really matter what it is (to be safe, be sure NOT to use the string "user" anywhere in the id, and only use letters or numbers) The system will take care of the "id" values for future records.
+- Create the user record in "tblusers" with a unique "id" value... doesn't really matter what it is (to be safe, be sure NOT to use the string "user" anywhere in the id, and only use letters or numbers) The system will take care of the "id" values for future records.
  
 - The password in the database should be a string made up of the email appended to the password and then md5 hashed.
 
