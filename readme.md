@@ -2,7 +2,7 @@
 A System for managing Bus Routes at Denver International Airport (DIA)
 
 ## Activities
-	### Route Manager is designed to track, manage and report activities for the parking bus fleet at DIA.
+### Route Manager is designed to track, manage and report activities for the parking bus fleet at DIA.
 		- Daily 24/7 milage and passenger counts logging
 		- Route, Bus and driver details
 		- Fluid and Fuel Tracking
@@ -10,7 +10,7 @@ A System for managing Bus Routes at Denver International Airport (DIA)
 		- Passenger Comments and Complaintss
 
 ## Reporting
-	### Route Manager has comprehensive reporting for all Activities.
+### Route Manager has comprehensive reporting for all Activities.
 	
 ## See it Live!
 	**https://routemanager.swishersolutions.com/**
