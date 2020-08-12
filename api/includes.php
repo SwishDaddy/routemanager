@@ -19,7 +19,7 @@ $aDateTimeGlobal = date("F j, Y, g:i a");
 $nDateTimeGlobal = time();
 
 // Using PDO for DB Connections
-$dbconn = new PDO('mysql:host=swishersolutions.cv4cx7jutcrl.us-east-2.rds.amazonaws.com;dbname=rm_demo', 'rm_demo', 'kjhdfasHJlkdhsf8967675$^(*kjgl', array(PDO::ATTR_PERSISTENT => true
+$dbconn = new PDO('mysql:host=<hostname>;dbname=<dbname>', '<username>', '<password>', array(PDO::ATTR_PERSISTENT => true
 ));
 $dbconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
