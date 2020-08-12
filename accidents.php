@@ -1,5 +1,4 @@
-<?php
-	
+<?php	
 	include "api/includes.php";
 	if (!logincheck()) {
 		header("Location: /");
